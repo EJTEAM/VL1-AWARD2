@@ -1,14 +1,11 @@
-<div class="form-group">
-				
- 
----OU---<br>
+<div class="form-group">	
 <form method="POST" action="index.php"  >
 				
 
-                <h4 style="color: red;"><?php
+                <!--<h4 style="color: red;"><?php
               
                  //echo $messages['email'];?></h4>
-
+-->
 				<div class="form-group">
 					
 					<div class="input-group">
@@ -43,13 +40,13 @@
 			
             
             
-            
+           <!-- 
             <div class="login-bottom-links">
 				
 				<a href="https://sms.eliajimmy.net/index.php?op=newuser" class="link">Creer un Compte</a>
 				
                 <br />
                 
-			</div>
+			</div>-->
 			
 			</form>

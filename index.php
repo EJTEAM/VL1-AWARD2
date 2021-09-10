@@ -70,7 +70,7 @@
 				}
 		    	else
 		    	{
-		    	     echo"Envoi de SMS par Internet";
+		    	     echo"Vodacom ligue 1 ";
 		    	}
  		
  			?>
