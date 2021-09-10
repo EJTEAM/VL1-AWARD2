@@ -89,7 +89,7 @@
 		</script>
 		
 		<?php
-								$id=$_SESSION['id'];
+					/*			$id=$_SESSION['id'];
 
 								$connexion = mysqli_connect("localhost", "eliajimm_sms",  "j'utiliseSMS243","eliajimm_sms");
 								
@@ -107,7 +107,7 @@
 								
 								
 							
-							?>
+							*/?>
 		
 <div class="row">
 			<div class="col-sm-3 col-xs-6">
@@ -216,7 +216,7 @@
 					
 											<tbody>
 												<?
-							
+						/*	
                             $ids=$_SESSION['id'];
 							$connexion = mysqli_connect("localhost", "eliajimm_sms",  "j'utiliseSMS243","eliajimm_sms");
 
@@ -253,7 +253,7 @@
 
 												</tr>
 															";
-								}?>
+								}*/?>
 
 											</tbody>
 							
@@ -278,7 +278,7 @@
 
 		
 									 <?php
-
+/*
 									 
 
 					     $pass=$_POST['pass'];
@@ -329,7 +329,7 @@
 
 									    ";
 					            }
-
+*/
 					         ?> 
 
 							

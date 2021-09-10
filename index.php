@@ -54,7 +54,7 @@
 		
 		<div class="login-content">
 			
-			<a href="index.php" class="logo">
+			<a href="corp.php" class="logo">
 				<img src="assets/images/logo_vl144444.png" width="120" alt="" "  />
 			</a>
 			

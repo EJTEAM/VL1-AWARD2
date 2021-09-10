@@ -86,86 +86,11 @@
 					</a>
 					
 				</li>
-				<?php
-					$id=$_SESSION['id'];
-					$types=$_SESSION['types'];
-
-					// if($types=='Invite')
-					// {
-					echo"
-					
-					
-					<li class=''>
-						
-						<a href='corp.php?menu=pf'>
-							<i class='entypo-user'></i>
-							<span class='title'>Profil</span>
-						</a>
-						
-					</li>
-                    	";
-                // }
-
-					// else
-					// 	{
-					// 		echo"
-
-					// <li class='has-sub'>
-					// 	<a href='corp.php?menu=us'>
-					// 		<i class='entypo-user'></i>
-					// 		<span class='title'>Utilisateur</span>
-					// 	</a>
-					// 	<ul>
-					// 	<li>
-					// 			<a href='corp.php?menu=cr'>
-					// 				<span class='title'>Ajouter</span>
-					// 			</a>
-					// 		</li>
-							
-
-					// 		<li>
-					// 			<a href='corp.php?menu=mdfu'>
-					// 				<span class='title'>Modifier</span>
-					// 			</a>
-					// 		</li>
-					// 		<li>
-					// 			<a href='corp.php?menu=del'>
-					// 				<span class='title'>Supprimer</span>
-					// 			</a>
-					// 		</li>
-					// 		<li>
-					// 			<a href='corp.php?menu=us'>
-					// 				<span class='title'>Afficher</span>
-					// 			</a>
-					// 		</li>
-							
-					// 	</ul>
-					// </li>";
-					// }
-
-				?>
-
-				 <li class="">
-					<a href="corp.php?menu=zd">
-						<i class="glyphicon glyphicon-usd"></i>
-						<span class="title">Achetez SMS</span>
-						
-					</a>
-					
-				</li>
-				
-				<li >
-					<a href="corp.php?menu=ml">
-						<i class="entypo-mail"></i>
-						<span class="title">Envoyer SMS</span>
-						
-					</a>
-					
-				</li>
+		
 				<li class="has-sub">
 					<a href="forms-main.html">
 						<i class="entypo-users"></i>
-						<span class="title">Membre du groupe</span>
+						<span class="title">Gestion joueur</span>
 					</a>
 					<ul>
 						<li>
@@ -174,11 +99,41 @@
 							</a>
 						</li>
 						
+					
+						
 						<li>
-							<a href="corp.php?menu=ipr">
-								<span class="title">Importer les membres</span>
+							<a href="corp.php?menu=vm">
+								<span class="title">Modifier</span>
 							</a>
 						</li>
+						<li>
+							<a href="corp.php?menu=vs">
+								<span class="title">Supprimer</span>
+							</a>
+						</li>
+						<li>
+							<a href="corp.php?menu=afc">
+								<span class="title">Afficher</span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>
+
+			
+				<li class="has-sub">
+					<a href="forms-main.html">
+						<i class="entypo-users"></i>
+						<span class="title">Gestion Votan</span>
+					</a>
+					<ul>
+						<li>
+							<a href="corp.php?menu=aj">
+								<span class="title">Ajouter</span>
+							</a>
+						</li>
+						
+					
 						
 						<li>
 							<a href="corp.php?menu=vm">
@@ -201,7 +156,7 @@
                  <li class="has-sub">
 					<a href="extra-icons.html">
 						<i class="entypo-bag"></i>
-						<span class="title">Groupe </span>
+						<span class="title">Gestion unité </span>
 						
 					</a>
 					<ul>
@@ -236,32 +191,16 @@
 					</ul>
 				</li>
 				
-					<li >
-					<a href="corp.php?menu=mb">
-
-						<i class="glyphicon glyphicon-phone"></i>
-
-						<span class="title">Paiement Mobile</span>
-
-					</a>
-					
-				</li>
+				
 
 				<li >
 					<a href="corp.php?menu=py">
 						<i class="entypo-chart-bar"></i>
-						<span class="title">Rapport SMS</span>
+						<span class="title">Rapport </span>
 					</a>
 					
 				</li>
-				
-				<li>
-					<a href="corp.php?menu=ct">
-						<i class="entypo-phone"></i>
-						<span class="title">Contactez nous </span>
-						
-					</a>
-				</li>
+			
 				
 				<li>
 						<a href="index.php?action=logout">
@@ -290,7 +229,7 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 							
 						<?php 
-                                
+/*
 
      $pass=$_POST['pass'];
       $login=$_POST['login'];
@@ -302,7 +241,7 @@
 
  
 		    $prenom&nbsp;$nom";
-		    
+		    */
 
 						  ?>
 						</a>
@@ -344,7 +283,7 @@
 							<i class="entypo-mail"></i>
 
 							<?php
-								$id=$_SESSION['id'];
+								/*$id=$_SESSION['id'];
 								 $connexion = mysqli_connect("localhost", "eliajimm_sms",  "j'utiliseSMS243","eliajimm_sms");
 								$requetesolde="SELECT *FROM solde WHERE solde_client=$id";
 								$resultatsolde=$connexion->query($requetesolde);
@@ -357,7 +296,7 @@
 								$quantite_acheteet=$solde_restant+$quantite_consommee;
 							    $quantite_consommee=$quantite_acheteet-$solde_restant;
 								echo"Solde:<span style='background:green; padding:2px; color:white; border-radius:2px;'> $solde_restant </span>";
-							
+							*/
 							?>
 		
 						</a>
