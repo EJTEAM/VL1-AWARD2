@@ -135,19 +135,7 @@
 									$('#avnum').css('display','block');
 									$('#avnum').html('Le champ numero ne doit pas contenir plus de 12 chiffres.');
 								}
-							
-							/*if(numeroCaractere >=3)
-								{ 
-									var debut =document.getElementById('numero').value.substring(0,3);
-								
-									if(debut!=243)
-										{
-											numeroCaractere=numeroCaractere-3;
-											document.getElementById('numero').value =document.getElementById('numero').value.substring(0,numeroCaractere);
-											$('#avnum').css('display','block');
-											$('#avnum').html('Le  numero de telephone  doit commencer par 243.');
-										}
-								}*/
+					
 							
 							var nombre = document.getElementById('numero').value;
 							if(isNaN(nombre) == true)

@@ -1,5 +1,5 @@
 <?php
-	   $connexion = mysqli_connect("localhost", "eliajimm_sms",  "j'utiliseSMS243","eliajimm_sms");
+	  /* $connexion = mysqli_connect("localhost", "eliajimm_sms",  "j'utiliseSMS243","eliajimm_sms");
 
    
 		$email=$_POST['email'];
@@ -56,7 +56,7 @@ mail($to, $subject, $message, $headers); // Send our email
 
 
 
- ?>
+ ?>*/
 
 				
 

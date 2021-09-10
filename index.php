@@ -1,6 +1,6 @@
 <?php
 
-	require_once('menu/test_login.php')
+	//require_once('menu/test_login.php')
 	
 ?> 
 
@@ -13,13 +13,13 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="description" content="Developpez votre relation client grâce aux Campagnes SMS en RD Congo" />
+	<meta name="description" content="Vodacom ligue 1" />
     <meta name="author" content="" />
   
 
 	<link rel="icon" href="assets/images/hk.svg">
 
-	<title>EJ sms</title>
+	<title>VodacomVl1 Award</title>
 
 	<link rel="stylesheet" href="assets/js/jquery-ui/css/no-theme/jquery-ui-1.10.3.custom.min.css">
 	<link rel="stylesheet" href="assets/css/font-icons/entypo/css/entypo.css">
@@ -55,7 +55,7 @@
 		<div class="login-content">
 			
 			<a href="index.php" class="logo">
-				<img src="assets/images/LOGO APPLI EJ SARL.png" width="120" alt="" "  />
+				<img src="assets/images/logo_vl144444.png" width="120" alt="" "  />
 			</a>
 			
 			<p class="description" style="font-size: 20px;">
